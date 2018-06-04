@@ -8,6 +8,7 @@
  ******************************************************************************/
 
 /* Include Headers -----------------------------------------------------------*/
+#include <string.h>
 #include "Unity/unity.h"
 #include "Unity/unity_fixture.h"
 
@@ -49,4 +50,6 @@ TEST_GROUP_RUNNER(sprintf) {
 
 static void RunAllTests(void) { RUN_TEST_GROUP(sprintf); }
 
-int main(int argc, char* argv[]) { return UnityMain(argc, argv, RunAllTests); }
+int main(const int argc, const char* argv[]) {
+  return UnityMain(argc, argv, RunAllTests);
+}

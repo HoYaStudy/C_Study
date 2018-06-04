@@ -1,2 +1,3 @@
-# C_Playground
-Playground with C
+# C\_Playground
+
+Playground with C.
