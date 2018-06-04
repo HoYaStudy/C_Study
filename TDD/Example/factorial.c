@@ -1,5 +1,5 @@
 /*******************************************************************************
- * @file		factorial.cpp
+ * @file		factorial.c
  * @brief		TDD example function.
  * @author	llHoYall <hoya128@gmail.com>
  * @version	v1.0
