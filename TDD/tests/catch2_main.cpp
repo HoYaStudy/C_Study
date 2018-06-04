@@ -1,6 +1,6 @@
 /*******************************************************************************
- * @file		Catch2_Example.c
- * @brief		TDD example with Unity.
+ * @file		catch2_main.c
+ * @brief		TDD example with Catch2.
  * @author	llHoYall <hoya128@gmail.com>
  * @version	v1.0
  * @note
@@ -10,12 +10,12 @@
 #define CATCH_CONFIG_MAIN
 
 /* Include Headers -----------------------------------------------------------*/
-#include "Catch2/catch.hpp"
+#include "catch.hpp"
 #include "factorial.h"
 
 /* Tests ---------------------------------------------------------------------*/
 TEST_CASE("Factorial", "[factorial]") {
-	REQUIRE(factorial(0) == 0);
+	REQUIRE(factorial(0) == 1);
   REQUIRE(factorial(1) == 1);
   REQUIRE(factorial(2) == 2);
   REQUIRE(factorial(5) == 120);

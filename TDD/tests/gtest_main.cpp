@@ -1,3 +1,12 @@
+/*******************************************************************************
+ * @file		gtest_main.c
+ * @brief		TDD example with GoogleTest.
+ * @author	llHoYall <hoya128@gmail.com>
+ * @version	v1.0
+ * @note
+ * 	- 2018.06.04	Created.
+ ******************************************************************************/
+
 /* Include Headers -----------------------------------------------------------*/
 #include <limits>
 #include "gtest/gtest.h"
