@@ -11,6 +11,11 @@ Ceedling (Unity, CMock, CException) + Travis CI + codecov
 - Ceedling
   > $ gem install ceedling
 
+### Help
+
+- Ceedling
+  > $ ceedling help
+
 ### Create Project
 
 - Ceedling
@@ -23,14 +28,17 @@ If you use a **zsh**, then you must use a escape character. (\\[ \\])
 - Ceedling
   > $ ceedling module:create[*module_name*]
 
-### Test
+### Test & Code Coverage
 
 - Ceedling
   > $ ceedling test:all
   >
   > $ ceedling test:*module_name*
+  >
+  > $ ceedling gcov:all
 
 ### Release
 
 - Ceedling
   > $ ceedling release
+
