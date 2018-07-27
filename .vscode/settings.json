@@ -1,0 +1,9 @@
+{
+  "C_Cpp.clang_format_fallbackStyle": "google",
+  "files.associations": {
+    "*.mak": "makefile",
+    "*.min": "makefile",
+    "bitset": "c",
+    "stdio.h": "c"
+  }
+}
