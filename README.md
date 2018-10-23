@@ -1,6 +1,6 @@
-# C\_Playground
+# C_Playground
 
-Playground with C.
+HoYa's C Playground.
 
 ## Continuous Integration
 
