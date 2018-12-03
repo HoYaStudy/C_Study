@@ -1,0 +1,16 @@
+/*******************************************************************************
+ * @brief		configurator.
+ * @author	llHoYall <hoya128@gmail.com>
+ * @version	v1.0.0
+ * @history
+ * 	2018.11.30	Created.
+ ******************************************************************************/
+
+#ifndef __CONFIGURATOR_H__
+#define __CONFIGURATOR_H__
+
+/* Definitions ---------------------------------------------------------------*/
+#define MAJOR_VERSION		@MAJOR_VERSION@
+#define MINOR_VERSION		@MINOR_VERSION@
+
+#endif
