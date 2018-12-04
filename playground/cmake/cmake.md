@@ -1,5 +1,16 @@
 # CMake
 
+## Command
+
+> cmake [options] \<path-to-source>
+
+> cmake [options] \<path-to-existing-build>
+
+### Options
+
+* `-G <generator name>` : Specify a build system generator.
+  + `MSYS Makefiles` : Generates MSYS makefiles.
+
 ## Make Library
 
 ```cmake
