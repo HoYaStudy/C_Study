@@ -172,6 +172,8 @@ $(func_name arg[, args])
 
 `include` directive를 사용하면 지정된 file의 내용이 해당 위치에 포함된다.
 
+If you want make to simply ignore a makefile which does not exist or cannot be remade, with no error message, use the `-include` directive.
+
 `export` directive를 사용하면 지정한 변수를 다른 makefile로 전달한다.
 
 ```makefile
