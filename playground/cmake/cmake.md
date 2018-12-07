@@ -37,3 +37,10 @@ add_custom_target(
   [SOURCES src1 [src2...]]
 )
 ```
+
+## CMake Variables
+
+* `CMAKE_SOURCE_DIR` : The path to the top level of the source tree.
+* `CMAKE_BINARY_DIR` : The path to the top level of the build tree.
+* `CMAKE_CURRENT_SOURCE_DIR` : The path to the source directory currently being processed.
+* `CMAKE_CURRENT_BINARY_DIR` : The path to the binary directory currently being processed.
